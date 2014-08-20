@@ -9,3 +9,8 @@ console.log(individual instanceof Person); // => true
 
 console.log(individual.constructor === Object); // => true
 console.log(individual.__proto__.constructor === Person); // => true
+
+
+console.log(individual.constructor); // => true
+console.log(individual.__proto__);
+console.log(individual.__proto__.constructor);
